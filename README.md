@@ -13,6 +13,8 @@ This program emulates multi-channel virtual audio devices, recognized by Linux j
 ## User Interface
 The application window is divided into two sections:
 
+![Image](https://github.com/user-attachments/assets/b202f906-d625-4cfb-9cae-3e4894fb764d)
+
 ### 1. Compass
 - Displays the current state of all audio sources, including their position relative to the listener and volume levels.
 - A pointer in the center indicates the current direction you are facing.
