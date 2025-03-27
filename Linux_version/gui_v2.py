@@ -50,7 +50,7 @@ def get_appearance_mode_idx():
 
 
 def round_pil_image_corners(pil_image, size, radius=CORNER_RADIUS):
-    pil_image = pil_image.resize(size, Image.LANCZOS)  # Zmień rozmiar
+    pil_image = pil_image.resize(size, Image.LANCZOS)
 
     mask = Image.new("L", size, 0)
     draw = ImageDraw.Draw(mask)
@@ -268,7 +268,7 @@ class SpeakerCompasFrame(ctk.CTkFrame):
         appearance_mode = get_appearance_mode_idx()
         self.__speaker_compas_canvas.configure(bg=self.cget("fg_color")[appearance_mode])
 
-        self.__speaker_compas_canvas.delete("all")  # Czyścimy stare linie
+        self.__speaker_compas_canvas.delete("all")  # Cleans up old dashed circle
 
         width = self.__speaker_compas_canvas.winfo_width()
         height = self.__speaker_compas_canvas.winfo_height()
