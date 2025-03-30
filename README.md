@@ -40,6 +40,8 @@ Before running this project:
 
 ### 2 Running:
 
+- Make sure your camera is connected to your computer.
+
 - Run main.py:
   
   ```bash
