@@ -1,7 +1,7 @@
 # Virtual Surround with Head Tracking
 
 ## Overview
-This program emulates multi-channel virtual audio devices, recognized by Linux just like physical devices. When combined with head tracking, it delivers an immersive experience where, even with headphones on, you can perceive the direction of sound regardless of head position—unless you completely turn away from the camera.
+This program emulates multi-channel virtual audio devices, recognized by operating system (currently only Linux) just like physical devices. When combined with head tracking, it delivers an immersive experience where, even with headphones on, you can perceive the direction of sound regardless of head position—unless you completely turn away from the camera.
 
 ### Available Surround Modes:
 1. **Stereo** (2 audio channels)  
