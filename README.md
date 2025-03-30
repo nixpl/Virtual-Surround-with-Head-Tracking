@@ -10,6 +10,44 @@ This program emulates multi-channel virtual audio devices, recognized by Linux j
 
 ---
 
+## How to run this project
+
+### 1 Requirements:
+
+#### Linux:
+Before running this project:
+
+- Make sure you have **Python 3** installed.
+
+- Check if **PulseAudio** or **PipeWire** is running on your system:
+
+  ```bash
+  pactl info
+  ```
+
+- Install **PortAudio** library (for audio handling):
+  
+  ```bash
+  sudo apt update
+  sudo apt install portaudio19-dev
+  ```
+
+- Install **required libraries**:
+
+  ```bash
+  pip install -r requirements.txt
+  ```
+
+### 2 Running:
+
+- Run main.py:
+  
+  ```bash
+  python3 main.py
+  ```
+
+---
+
 ## User Interface
 The application window is divided into two sections:
 
